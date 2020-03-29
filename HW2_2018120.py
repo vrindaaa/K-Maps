@@ -48,6 +48,7 @@ def toexpression(num,l):
         return s3[:len(s3)-1]
                         
 def minFunc(no_of_var, string):
+    """This function inputs a KMAP and Nuber of variables and reduces the KMAP as much as possible"""
     d=string.find('d')
     #dontcare list contains elements with dontcare conditions
     if string[d+2]=='-':
